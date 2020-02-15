@@ -1,3 +1,7 @@
+int plus( int x, int y) {
+    return x + y;
+}
+
 int main() {
-    return 42;
+    return plus( 40, 2 );
 }
