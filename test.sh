@@ -16,7 +16,8 @@ try() {
     fi
 }
 
-try 0 0
-try 42 42
+try 2 '1+1'
+try 42 '20+22'
+try 41 '40-20+21'
 
 echo OK
